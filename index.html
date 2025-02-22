@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Notifcation Page</title>
+</head>
+<body>
+    <div class="container bg-dark text-white mt-4 rounded-4">
+        <div class="row justify-content-between px-4 py-3">
+            <div class="main col-5 fs-4 fw-bold text-light">Nutifications <span class="badge counter">0</span></div>
+            <div class="col-5 text-center align-self-center"><button class="btn fs-6 fw-bold">Mark all as read</button></div>
+        </div>
+        <div class="container-fluid">
+        <!-- card 1 ------------------------------------------------------------------------------->
+        <div class="row notification unread py-2 mb-2">
+            <div class="col-1 px-4 ">
+                    <img src="./assets/images/avatar-mark-webber.webp" alt="" class="img-fluid">
+            </div>
+                <div class="col-11 notification-text py-3">
+                    <span class="userName fw-bold">Mark Webber</span>
+                    reacted to your recent post
+                    <span class="event fw-bold">My first tournament today!</span>
+                    <span class="unread-span"><i class="fa-solid fa-circle fs-6 text-danger"></i></span>
+                    <span class="d-block">1m ago</span>
+                </div>
+            </div>
+            <!-- card 2 ------------------------------------------------------------------------------->
+            <div class="row notification unread py-2 mb-2">
+                <div class="col-1 px-4">
+                    <img src="./assets/images/avatar-angela-gray.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-11 notification-text py-3">
+                    <span class="userName fw-bold">Angela Gray</span>
+                    followed you
+                    <span class="unread-span"><i class="fa-solid fa-circle fs-6 text-danger"></i></span>
+                    <span class="d-block">5m ago</span>
+                </div>
+            </div>
+            <!-- card 3 ------------------------------------------------------------------------------->
+            <div class="row notification unread py-2 mb-2">
+                <div class="col-1 px-4">
+                    <img src="./assets/images/avatar-anna-kim.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-11 notification-text py-3">
+                    <span class="userName fw-bold">Anna Kim</span>
+                    left the group
+                    <span class="event fw-bold">Cheese club</span>
+                    <span class="unread-span"><i class="fa-solid fa-circle fs-6 text-danger"></i></span>
+                    <span class="d-block">7m ago</span>
+                </div>
+            </div>
+            <!-- card 4 ------------------------------------------------------------------------------->
+            <div class="row notification">
+                <div class="col-1 px-4">
+                    <img src="./assets/images/avatar-jacob-thompson.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-11 notification-text py-3">
+                    <span class="userName fw-bold">Jacob Thompson</span>
+                    has joined in your group
+                    <span class="event fw-bold">Cheese club</span>
+                    <span class="d-block">5 days ago</span>
+                </div>
+            </div>
+            <!-- card 5 ------------------------------------------------------------------------------->
+            <div class="row notification">
+                <div class="col-1 px-4">
+                    <img src="./assets/images/avatar-kimberly-smith.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-11 notification-text py-3">
+                    <span class="userName fw-bold">Kimberly Smith</span>
+                    commented on your picture
+                    <p class="comment p-3 mt-2 text-dark border border-secondary rounded-3 bg-">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, provident fugiat. Voluptate sint sed minima est labore accusamus quis officia atque eaque nostrum possimus, iste voluptas fugiat, maxime, soluta adipisci?</p>
+                    <span class="d-block">1 week ago</span>
+                </div>
+            </div>
+            <!-- card 6 ------------------------------------------------------------------------------->
+            <div class="row notification">
+                <div class="col-1 px-4">
+                    <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-11 notification-text py-3">
+                    <span class="userName fw-bold">Rizky Hasanuddin</span>
+                    sent you a private message
+                    <span class="d-block">1 week ago</span>
+                </div>
+            </div>
+            <!-- card 7 ------------------------------------------------------------------------------->
+            <div class="row notification">
+                <div class="col-1 px-4">
+                    <img src="./assets/images/avatar-nathan-peterson.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-11 notification-text py-3">
+                    <span class="userName fw-bold">Nathan Peterson</span>
+                    reacted to your recent post
+                    <span class="event fw-bold">5 end-game strategies to increase your win rate</span>
+                    <span class="d-block">2 weeks ago</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center fs-4 pb-2 openIcon"><i class="fa-solid fa-chevron-down"></i></div>
+    </div>
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- main JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

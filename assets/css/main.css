@@ -1,0 +1,103 @@
+body{
+    background-color:#1F1F27;
+}
+.container .row .badge{
+    background-color: #000000;
+}
+.container .row button{
+    color: #c9c9c9;
+    transition: color 0.3s;
+}
+.container .row button:hover{
+    color: rgba(92, 110, 213, 0.75);
+}
+.container .notification .notification-text{
+    color: rgba(152, 152, 152, 0.691);
+}
+.container .notification .notification-text :where(.userName, .event){
+    color: white;
+    transition: color 0.3s;
+}
+.container .notification .notification-text :where(.userName:hover, .event:hover){
+    color: rgba(92, 110, 213, 0.75);
+    cursor: pointer;
+}
+.container .notification.unread{
+    background-color: #504f4fba;
+    border-radius: 20px;
+}
+.container .notification .comment{
+    background-color: wheat;
+    transition: all 0.3s;
+}
+.container .notification .comment:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.316);
+}
+.container-fluid{
+    height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+.openIcon i{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+@media (max-width: 576px) {
+    .notification {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .notification .col-1 {
+        width: 100%;
+        padding: 0 !important;
+        text-align: center;
+    }
+    .notification .col-1 img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .notification .col-11 {
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media (max-width: 576px) {
+    .main {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .counter {
+        font-size: 1rem;
+        padding: 3px 7px;
+    }
+    .btn {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 576px) {
+    .userName, .event {
+        display: block;
+        font-size: 1rem;
+    }
+    .unread-span {
+        font-size: 0.8rem;
+    }
+    .comment {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+    .notification {
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px;
+    }
+}
