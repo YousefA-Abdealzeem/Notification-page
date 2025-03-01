@@ -13,3 +13,4 @@ https://yousefa-abdealzeem.github.io/Notification-page/<br>
 Email: yousef227d@gmail.com<br>
 GitHub: https://github.com/YousefA-Abdealzeem<br>
 LinkedIn: www.linkedin.com/in/yousef-alian-7a35ba29a<br>
+LinkedIn video: https://www.linkedin.com/posts/yousef-alian-7a35ba29a_webdevelopment-frontend-javascript-activity-7301469905927729152-8JFd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhZHusBzHDqp2WqH_lG2eAauQKbS71Wf8Q
